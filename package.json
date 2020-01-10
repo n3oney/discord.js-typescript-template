@@ -1,0 +1,36 @@
+{
+  "name": "discord.js-typescript-template",
+  "version": "0.0.1",
+  "description": "A template for Discord.JS with Typescript and a command handler.",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "NODE_ENV=dev ts-node .",
+    "start": "NODE_ENV=production node ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/n3oney/discord.js-typescript-template.git"
+  },
+  "keywords": [
+    "discord.js",
+    "typescript",
+    "template",
+    "command"
+  ],
+  "author": "n3oney",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/n3oney/discord.js-typescript-template/issues"
+  },
+  "homepage": "https://github.com/n3oney/discord.js-typescript-template#readme",
+  "devDependencies": {
+    "@types/node": "^13.1.6",
+    "dotenv": "^8.2.0",
+    "ts-node": "^8.6.0",
+    "typescript": "^3.7.4"
+  },
+  "dependencies": {
+    "discord.js": "^11.5.1"
+  }
+}
